@@ -1,3 +1,5 @@
+#Szymon Oczki
+
 import argparse
 import os
 
