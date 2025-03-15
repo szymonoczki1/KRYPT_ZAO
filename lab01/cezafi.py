@@ -16,8 +16,7 @@ def parse_args():
 def check_files(required_files):
     missing_files = [f for f in required_files if not os.path.exists(f)]
     if missing_files:
-        print(f"Brak wymaganych plików: {', '.join(missing_files)}")
-        exit(1)
+        raise FileNotFoundError(f"Brak wymaganych plików: {', '.join(missing_files)}")
 
 def replace_polish_letters(text):
     polish_letters = {'ą':'a','Ą':'A', 'ć':'c', 'Ć':'C', 'ę':'e', 'Ę':'E', 'ł':'l', 'Ł':'L', 'ó':'o', 'Ó':'O', 'ś':'s', 'Ś':'S', 'ż':'z', 'Ż':'Z', 'ź':'z', 'Ź':'Z', 'ń':'n', 'Ń':'N'}
@@ -197,7 +196,7 @@ def is_key_valid(key, caesar=True):
         if key >= 1 and key <= 25:
             return True
         else:
-            raise ValueError("Klucz jest nie poprawny. (Kluczem powinna być liczba w zakresie 0-26)") 
+            raise ValueError("Klucz jest nie poprawny. (Kluczem powinna być liczba w zakresie 0-25)") 
     elif caesar == False:
         if key[0] not in [1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25]:
             raise ValueError("Klucz jest niepoprawny (NWD miedzy a, a 26 powinno byc rowne 1)")
