@@ -134,7 +134,7 @@ def cryptoanalysis_xor(text_arr):
 
                 recovered_char = chr(space_hex ^ 0x20)
 
-                if recovered_char.isprintable() and len(recovered_char) == 1 and re.match(r'^[a-z ]$', recovered_char):
+                if recovered_char.isprintable() and len(recovered_char) == 1 and re.match(r'^[a-zA-Z ]$', recovered_char):
                     foundkey = 1
                     key[i] = recovered_char
                     #print(f"Recovered key for position {i}: {key[i]}")
