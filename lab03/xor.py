@@ -154,7 +154,7 @@ def main():
     args = parse_args()
 
     if sum([args.p, args.e, args.k]) != 1:
-        raise ValueError("Należy wybrać dokładnie jedną operację: -p, -e, -d lub -k.")
+        raise ValueError("Należy wybrać dokładnie jedną operację: -p, -e lub -k.")
     
     if args.p:
         print("Przygotowanie tekstu jawnego do szyfrowania...")
