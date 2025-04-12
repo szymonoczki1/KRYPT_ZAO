@@ -1,0 +1,14 @@
+cat hash-.pdf personal.txt | md5sum
+cat hash-.pdf personal_.txt | md5sum
+cat hash-.pdf personal.txt | sha1sum
+cat hash-.pdf personal_.txt | sha1sum
+cat hash-.pdf personal.txt | sha224sum
+cat hash-.pdf personal_.txt | sha224sum
+cat hash-.pdf personal.txt | sha256sum
+cat hash-.pdf personal_.txt | sha256sum
+cat hash-.pdf personal.txt | sha384sum
+cat hash-.pdf personal_.txt | sha384sum
+cat hash-.pdf personal.txt | sha512sum
+cat hash-.pdf personal_.txt | sha512sum
+cat hash-.pdf personal.txt | b2sum
+cat hash-.pdf personal_.txt | b2sum

@@ -5,7 +5,7 @@ c91b8bae70cc7bd6d941161fe9bd0bbf
 Liczba różniących sie bitów: 65 z 128, procentowo: 50.78%
 
 cat personal.txt | sha1sum
-cat personal_.txt | sha1sum   
+cat personal_.txt | sha1sum
 c043684eca81a440883083de56de6d745b907e00
 e338fa01f9684c3deacf57e06fea990c3ed5ec36
 Liczba różniących sie bitów: 86 z 160, procentowo: 53.75%
