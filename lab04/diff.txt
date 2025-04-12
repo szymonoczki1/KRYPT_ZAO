@@ -1,41 +1,41 @@
-cat personal.txt | md5sum
-cat personal_.txt | md5sum
-c91b8bae70cc7bd6d941161fe9bd0bbf
-245d8c95e2ab64d1b9d91460d362a21c
-Liczba różniących sie bitów: 65 z 128, procentowo: 50.78%
+cat hash-.pdf personal.txt | md5sum
+cat hash-.pdf personal.txt | md5sum
+3ded371be53ccca080283377383e340a
+a5633ce9e20815b48d97d1dab0324668
+Liczba różniących sie bitów: 58 z 128, procentowo: 45.31%
 
-cat personal.txt | sha1sum
-cat personal_.txt | sha1sum
-c043684eca81a440883083de56de6d745b907e00
-e338fa01f9684c3deacf57e06fea990c3ed5ec36
-Liczba różniących sie bitów: 86 z 160, procentowo: 53.75%
+cat hash-.pdf personal.txt | sha1sum
+cat hash-.pdf personal_.txt | sha1sum
+d7feac3d58ed0992f4f1a922211081239e1d8cd8
+a89a04baf8cea60de86b115fe2d60c80bf42f2c0
+Liczba różniących sie bitów: 83 z 160, procentowo: 51.88%
 
-cat personal.txt | sha224sum
-cat personal_.txt | sha224sum
-5ca7768a6fc939581f3d5da6c6b6f3dbe3419839fa65b2dfead2ec2c
-2341bf4a5817d6c0c774c9060693a35c81ac7aa2fd6d3cf7f2b17731
-Liczba różniących sie bitów: 105 z 224, procentowo: 46.88%
+cat hash-.pdf personal.txt | sha224sum
+cat hash-.pdf personal_.txt | sha224sum
+04ba49c899e7491029c574f655467da0dc790f798533c9d71932de55
+acb676a21db3e6fdcdcfeb7ea9382b20b9cf77bac23be12e421bf43c
+Liczba różniących sie bitów: 108 z 224, procentowo: 48.21%
 
-cat personal.txt | sha256sum
-cat personal_.txt | sha256sum
-01f6552742e4fce47f12da9f65095565fa126ec4acb3dc80c9cbdf00a5cecf80
-d2bb224a321bcdb19b72e7d6f6ec74be2965def0fd15aa44654544962c4a43f7
+cat hash-.pdf personal.txt | sha256sum
+cat hash-.pdf personal_.txt | sha256sum
+5aa82884b389403310958e436bd09725e0db3c2ef86bd0bb8a6222f2508e770a
+c675daa81bb1af9466509402f093457ab5d11577570ec861def8306f2774116c
 Liczba różniących sie bitów: 132 z 256, procentowo: 51.56%
 
-cat personal.txt | sha384sum
-cat personal_.txt | sha384sum
-5774296e1c9e5e1b01ada848a8cbd79d2e2c3fd84ce809765ee3824cb4a46d0b9e7b8ec1e5ed9d6f99a85a2173dbd1d3
-e385aaf54260edac7f8e3bdbf4120542eac75e7f24e361aea5b993e2a12ec47bf7d1518b766c44118b8771139985b5e8
-Liczba różniących sie bitów: 205 z 384, procentowo: 53.39%
+cat hash-.pdf personal.txt | sha384sum
+cat hash-.pdf personal_.txt | sha384sum
+c3d993e39d4e527439914e8252805f244ca42233ec6d4cc5847f33cd24d113a06204a63d451c83da74ee32205d4de773
+ac855c83778dd479bd25415e219b61e78352599adb38b4bb7704fc2cdd946b2c30374c303ce516ed1fd4cec89e3d3903
+Liczba różniących sie bitów: 216 z 384, procentowo: 56.25%
 
-cat personal.txt | sha512sum
-cat personal_.txt | sha512sum
-128e2c72af16a1937e4242a5d2832da70821d0ed7298085352edc7ce961b521659736d02899536cb81c61f9a459bfb844a83d7cc5f501937574f28cf918416fd
-12973582d79c78dd82ac65afd535cf59b853634be508cb857be66e75ade29a51ab4b4ca05fc503cc2ee70d7071ce68e27d4a3a03f323726611f890a4090c4098
-Liczba różniących sie bitów: 255 z 512, procentowo: 49.80%
+cat hash-.pdf personal.txt | sha512sum
+cat hash-.pdf personal_.txt | sha512sum
+16ce2f48720d0eb323f18de6d2c9101a8e8fd02fc332e9344b4af9c7eb2d97b052268b38d312e08a4f737632b702eaf0d99ec09c2f8c8a6f685a96fae3af78ce
+e6c4fa2dda317db911acac7c31504c36f5760600226d80582c7fcaa2be3be796f4699676aa387a9b05e339bf37071b33025127073018d5804e7124228f46b0cd
+Liczba różniących sie bitów: 259 z 512, procentowo: 50.59%
 
-cat personal.txt | b2sum
-cat personal_.txt | b2sum
-a8baefb2f862140292d7b8cdf12d37085de14565ef89f07e75da6487951172701c6cd7a9337668bf838dc0079ae0ecf5e0266e1ab38b122e7e7c5a9375dd8b1b
-05ce438309f3f7c97cf0940f91a80c1b8fb4472708bfc0604e29843621cbf968f0e7471e4ccb1f40e5985598250c3d9cd22814def0533ec253f2554a4244a2cd
-Liczba różniących sie bitów: 267 z 512, procentowo: 52.15%
+cat hash-.pdf personal.txt | b2sum
+cat hash-.pdf personal_.txt | b2sum
+4f9f42b142f9cae2e5da58e1f06c5b4738855e6e54e406cc2cfe80a9dc1514113b229322036c9abcc6c51803ace81801e6370faca36dd64193cb785dd78cdb12
+fd733429b4b5ff5c1a6a7d5f88fc5af23644905d99a01ceae0aad4fa57c08c9ade021c9652582a53ad8867242df443bf4021b8a98eeace1e714b1902b46ac427
+Liczba różniących sie bitów: 256 z 512, procentowo: 50.00%
