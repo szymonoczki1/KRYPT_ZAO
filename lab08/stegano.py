@@ -34,7 +34,7 @@ def read_mess_hex_to_bit(file_name):
     return binary_string.zfill(len(hex_string) * 4)
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Program z algorytmem Rabina-Millera lub Fermata.")
+    parser = argparse.ArgumentParser(description="Program do steganografii.")
     parser.add_argument("-e", action="store_true", help="encode")
     parser.add_argument("-d", action="store_true", help="decode")
     parser.add_argument("-1", dest="opt1", action="store_true", help="option 1")
